@@ -1,0 +1,28 @@
+ollama:
+  base_url: "http://localhost:11434"
+
+# Default models to run evaluations on
+models:
+  - "model_1"  # Replace with actual model name
+  - "model_2"  # Replace with actual model name
+
+# Per-model token/timeout profiles.
+# Keys are matched as substrings of the model tag (case-insensitive).
+# num_predict: max tokens to generate; timeout: request timeout in seconds.
+# Reasoning models emit long <think> blocks before answering — set high limits.
+model_profiles:
+  model_1:              # Replace with actual model name
+    num_predict: 8192
+    timeout: 300
+  model_2:            # Replace with actual model name
+    num_predict: 8192
+    timeout: 300
+  _default:
+    num_predict: 8192
+    timeout: 300
+
+# Models that wrap reasoning in <think>...</think> blocks.
+# Their output is stripped before parsing the final answer.
+thinking_models:
+  - "thinking_model_1"   # Replace with actual model name
+  - "thinking_model_2"

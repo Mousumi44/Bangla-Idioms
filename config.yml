@@ -1,0 +1,7 @@
+# API Keys — fill in your own keys before running.
+# Never commit this file with real keys; it is listed in .gitignore.
+api_keys:
+  gemini: ""      # https://ai.google.dev
+  anthropic: ""   # https://console.anthropic.com
+  mistral: ""     # https://console.mistral.ai
+  openai: ""      # https://platform.openai.com
