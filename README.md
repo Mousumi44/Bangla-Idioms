@@ -17,11 +17,10 @@ Mousumi Akter¹², Md. Faiyaz Abdullah Sayeedi³, Nurul Labib Sayeedi⁴, Swakkh
 │   ├── evaluate_span_detection.py       # Task 2: Span Detection
 │   ├── evaluate_mcq_sub_1.py            # Task 3a: MCQ — select one meaning
 │   └── evaluate_mcq_sub_2.py            # Task 3b: MCQ — select multiple meanings
-├── data/                          # Dataset (Bagdhara)
-│   ├── Bagdhara_v3_merged.json
-│   ├── Bagdhara_v3_merged.csv
-│   ├── Bagdhara_v3.json
-│   └── Bagdhara_v3_test.json
+├── data/      <- You will find the dataset in this folder.
+│   ├── mcq_task_multiple_meanings.json
+│   ├── mcq_task_single_meaning.json
+│   └── Bagdhara.json 
 ├── tasks/                         # Prompt files for each task
 │   ├── task_1_paraphrase_quality_prompt.json
 │   ├── task_2_span_detection_prompt.json
