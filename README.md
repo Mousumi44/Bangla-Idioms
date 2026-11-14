@@ -114,7 +114,7 @@ Same options as Task 3a.
 
 ## Output
 
-Results are written to `results/` (gitignored):
+Results are written to `results/`:
 ```
 results/
 ├── paraphrase_quality/
