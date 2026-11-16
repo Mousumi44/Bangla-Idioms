@@ -5,7 +5,14 @@ Mousumi Akter¹², Md. Faiyaz Abdullah Sayeedi³, Nurul Labib Sayeedi⁴, Swakkh
 
 ¹Technical University Dortmund · ²Research Center Trustworthy Data Science and Security · ³BRAC University · ⁴United International University
 
-📄 [Paper (arXiv)](https://arxiv.org/pdf/2609.03410)
+
+This repository contains the dataset and code for our EACL 2027 paper "To What Extent Do Large Language Models Understand Bangla Idioms?"
+
+We present the first large-scale benchmark dataset of Bangla idioms, complemented by a synthetic multiple-choice question (MCQ) dataset for idiom meaning identification. We conduct a comprehensive evaluation of recent large language models (LLMs) across three idiom-related tasks: paraphrasing, idiom span detection, and meaning identification, leveraging zero-shot and few-shot prompting strategies.
+
+The datasets can be found in the [data](https://github.com/Mousumi44/Bangla-Idioms/tree/main/data) folder.
+ 
+📄 [Paper Link](https://arxiv.org/pdf/2609.03410)
 
 ---
 
